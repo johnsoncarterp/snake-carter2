@@ -8,7 +8,10 @@ function gameInitalize() {
     var canvas = document.getElementbyId("game-screen");
     context = canvas.getContext("2d");
     screenWidth = window.innerWidth;
-}
+    screenHeight = window.innerheight;
+    canvas.width = screenWidth;
+    canvas.height = screenHeight;
+    }
 
 function gameLoop() {
     
