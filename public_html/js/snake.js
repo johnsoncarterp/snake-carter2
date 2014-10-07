@@ -8,10 +8,10 @@ gameInitalize();
 gameDraw();
 
 function gameInitalize() {
-    var canvas = document.getElementbyId("game-screen");
+    var canvas = document.getElementById("game-screen");
     context = canvas.getContext("2d");
     screenWidth = window.innerWidth;
-    screenHeight = window.innerheight;
+    screenHeight = window.innerHeight;
     canvas.width = screenWidth;
     canvas.height = screenHeight;
     }
@@ -21,6 +21,6 @@ function gameLoop() {
 }
 
 function gameDraw() {
-   context.fillStyle = "rgb(180, 235, 152)";
+   context.fillStyle = "rgb(180, 250, 213)";
    context.fillRect(0, 0, screenWidth, screenHeight);
 }
