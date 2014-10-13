@@ -45,7 +45,7 @@ function snakeInitialize(){
 
 function snakeDraw(){
  for(var index = 0; index <snake.length; index++) {
-     context.fillStyle = "white";
+     context.fillStyle = "purple";      
      context.fillRect(snake[index].x * snakeSize, snake[index].y * snakeSize, snakeSize, snakeSize);
  }   
 }
@@ -57,6 +57,6 @@ function snakeUpdate(){
     snakeHeadX++;
     var snakeTail = snake.pop();
     snakeTail.x = snakeHeadX;
-    snakeTail.y = snakeHeadX;
+    snakeTail.y = snakeHeadY;
     snake.unshift(snakeTail);
 }
