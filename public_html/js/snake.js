@@ -21,6 +21,8 @@ function gameInitialize() {
     screenHeight = window.innerHeight;
     canvas.width = screenWidth;
     canvas.height = screenHeight;
+    
+    document.addEventListener
     }
 
 function gameLoop() {
@@ -64,6 +66,9 @@ function snakeUpdate(){
     
      if(snakeDirection == "down") {
         snakeHeadY++;
+    }
+    else {
+        snakeHeadX++;
     }
     
     var snakeTail = snake.pop();
