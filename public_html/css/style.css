@@ -2,37 +2,38 @@ body {
     margin:0;
     padding: 0;
 }
-
+/*body*/
 #game-screen{
     display: block;
 }
-
+/*my game screen*/
 #gameOver, #playHUD {
     position: absolute;
     visibility: hidden;
 }
-
+/*game over and playHUD stuff*/
 h1, h2, h3{
     font-family: 'Permanent Marker', cursive;
     color: yellowgreen;
     text-align: center;
 }
-
+/*h1, h2, h3 style*/
 .title {
     font-size: 62px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
-
+/*how big title is*/
 #restartButton {
     border: 2px solid yellowgreen;
     border-radius: 10px;
 }
-
+/*the restart button*/
 #restartButton:hover {
     background-color: #009900;
 }
-
+/*restart button hover color*/
 #scoreboard {
     margin: 0px;
 }
+/*scoreboard*/
