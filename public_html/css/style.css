@@ -13,7 +13,7 @@ body {
 }
 /*game over and playHUD stuff*/
 h1, h2, h3{
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Monoton', cursive;
     color: yellowgreen;
     text-align: center;
 }
